@@ -8,4 +8,4 @@ Uma página de 404 not found muito bonita
 - FIGMA
 
 ## PREVIEW DO PROJETO
-<img src=".github/preview.jpg">
+<img src="preview.jpg">
