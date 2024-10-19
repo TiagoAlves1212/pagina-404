@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/Background.jpg);
+}
+
+/* INFO */
+.info{
+  width: 380px;
+  height: 176px;
+}
+
+.info h1{
+  font-family: "Outfit", sans-serif;
+  color: #D6D6F2;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.info p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #D6D6F2;
+  font-family: "Outfit", sans-serif;
+}
+
+/* BOTÕES */
+.actions{
+  width: 272px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.voltar{
+  padding: 12px 24px;
+  border-radius: 999px;
+  background-color: #151557;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+
+.voltar a{
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #E2E2F5;
+}
+
+.home{
+  padding: 12px 24px;
+  border-radius: 999px;
+  background-color: #151557;
+  text-transform: uppercase;
+}
+
+.home a{
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #E2E2F5;
+}
+
+/* 404 not found */
+.not-found{
+  width: 406.31px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-4{
+  width: 80.16px;
+  height: 105.39px;
+}
+
+.planeta{
+  width: 230px;
+  height: 230px;
+}
